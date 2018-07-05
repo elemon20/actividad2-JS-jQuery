@@ -10,8 +10,32 @@ Tip: Investigar el evento window.onload
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" type="text/css" href="miestilo.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script>
+		$(function() {
+	        alert( "documento listo" );
+	    });
+	 
+	</script>
+	<script>
+		 $( window ).on( "load", function() {
+	        alert( "ventana lista" );
+	    });
+	</script>
+
   </head>
   <body>
+  		<img class="principal" src="images/chrysanthemum.jpg">
 
+  		<div class="galeria">
+  			<img class="thumb" src="images/Desert.jpg">
+  			<img class="thumb" src="images/Hydrangeas.jpg">
+  			<img class="thumb" src="images/jellyfish.jpg">
+  			<img class="thumb" src="images/koala.jpg">
+  			<img class="thumb" src="images/lighthouse.jpg">
+  			<img class="thumb" src="images/penguins.jpg">
+  			<img class="thumb" src="images/tulips.jpg">
+  		</div>
   </body>
 </html>
