@@ -12,8 +12,27 @@ de un segundo, al volver hacer click debe volver a estar en blanco y negro.
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" type="text/css" href="miestilo.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
   </head>
   <body>
+  	
+  			<img src="images/chrysanthemum.jpg">
+  			<img src="images/Desert.jpg">
+  			<img src="images/Hydrangeas.jpg">
+  			<img src="images/jellyfish.jpg">
+  			<img src="images/koala.jpg">
+  			<img src="images/lighthouse.jpg">
+  			<img src="images/penguins.jpg">
+  			<img src="images/tulips.jpg">
+  		
+  		<script>
+  			$("img").click(function (){
+  				$("img").toggleClass("color");
+		  	}) 
+		  	
+		</script>
 
   </body>
 </html>
